@@ -45,7 +45,7 @@ And then insert the following dependecny in your POM:
 
 ## Q&A
 
-Post your questions to [Kafka Utils mailing list](https://lists.sourceforge.net/lists/listinfo/kafkautils-list).
+Post your questions to [Kafka Utils mailing list](https://lists.sourceforge.net/lists/listinfo/kafka-utils-list).
 
 ## Licence
 Copyright &copy; 2013 **[Sari Haj Hussein](http://sarihh.info)**.
