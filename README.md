@@ -23,7 +23,7 @@ Kafka Utils uses the following software components:
 5. Kafka Unit
 
 ## Usage
-Refer to the [unit tests](./src/test/java/info/sarihh/kafka/eight/utils).
+Refer to the [unit tests](./src/test/java/info/sarihh/kafka/nine/utils).
 
 ## Maven
 
