@@ -7,7 +7,7 @@ Kafka Utils is a framework for handling Kafka. Handling means listing, creating 
 Kafk Utils Version | Branch            | Kafka API
 ------------------ | ----------------- | -----------------------------------------------------------
 Kafka Eight Utils  | kafka-eight-utils | [Kafka 0.8.2.X API](http://kafka.apache.org/082/documentation.html)
-Kafka Nine Utils   | kafka-nine-utils  | [Kafka 0.9.0.X API](http://kafka.apache.org/090/documentation.html)
+Kafka Nine Utils   | master            | [Kafka 0.9.0.X API](http://kafka.apache.org/090/documentation.html)
 
 ## Ingredients
 Kafka Utils uses the following software components:

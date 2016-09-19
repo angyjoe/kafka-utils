@@ -228,8 +228,8 @@ public class KafkaEightUtils<K, V> {
     }
 
     /** Sends messages to the default topic using producer. */
-    @SafeVarargs
-    public final void sendMessages(Producer<K, V> producer, V... messages) {
+    @SuppressWarnings("unchecked")
+    public void sendMessages(Producer<K, V> producer, V... messages) {
         for (V message : messages) {
             KeyedMessage<K, V> keyedMessage = new KeyedMessage<>(getDefaultTopic(), message);
             producer.send(keyedMessage);
@@ -239,8 +239,8 @@ public class KafkaEightUtils<K, V> {
     }
 
     /** Sends messages to the topic topicName using producer. */
-    @SafeVarargs
-    public final void sendMessages(Producer<K, V> producer, String topicName, V... messages) {
+    @SuppressWarnings("unchecked")
+    public void sendMessages(Producer<K, V> producer, String topicName, V... messages) {
         for (V message : messages) {
             KeyedMessage<K, V> keyedMessage = new KeyedMessage<>(topicName, message);
             producer.send(keyedMessage);
@@ -250,7 +250,7 @@ public class KafkaEightUtils<K, V> {
     }
 
     /** Sends messageList to the default topic using producer. */
-    public final void sendMessages(Producer<K, V> producer, List<V> messageList) {
+    public void sendMessages(Producer<K, V> producer, List<V> messageList) {
         for (V message : messageList) {
             KeyedMessage<K, V> keyedMessage = new KeyedMessage<>(getDefaultTopic(), message);
             producer.send(keyedMessage);
@@ -260,7 +260,7 @@ public class KafkaEightUtils<K, V> {
     }
 
     /** Sends messageList to the topic topicName using producer. */
-    public final void sendMessages(Producer<K, V> producer, String topicName, List<V> messageList) {
+    public void sendMessages(Producer<K, V> producer, String topicName, List<V> messageList) {
         for (V message : messageList) {
             KeyedMessage<K, V> keyedMessage = new KeyedMessage<>(topicName, message);
             producer.send(keyedMessage);
