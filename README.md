@@ -48,7 +48,7 @@ And then insert the following dependecny in your POM:
 Post your questions to [Kafka Utils mailing list](https://lists.sourceforge.net/lists/listinfo/kafka-utils-list).
 
 ## Licence
-Copyright &copy; **[Sari Haj Hussein](http://sarihh.info)**.
+Copyright &copy; **Sari Linder**.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
